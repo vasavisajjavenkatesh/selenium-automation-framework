@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [flightbooking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Food(failed)">
+    <classes>
+      <class name="testingFlight.SearchPageFlight">
+        <methods>
+          <include name="allFields"/>
+          <include name="currencyDropdown1"/>
+          <include name="radiobutton2"/>
+          <include name="tearDown"/>
+          <include name="passengerDropdown"/>
+          <include name="passengers"/>
+          <include name="currencyDropdown3"/>
+          <include name="radiobutton1"/>
+          <include name="set"/>
+          <include name="radiobutton3"/>
+          <include name="currencyDropdown2"/>
+        </methods>
+      </class> <!-- testingFlight.SearchPageFlight -->
+    </classes>
+  </test> <!-- Food(failed) -->
+</suite> <!-- Failed suite [flightbooking] -->
